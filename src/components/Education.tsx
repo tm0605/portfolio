@@ -1,7 +1,7 @@
 export default function Education() {
     return (
-        <div className="education">
-            <h2 className="section-title">Education</h2>
+        <div className="education section" id="education">
+            <h1 className="section-title">Education</h1>
             <div className="qualification" id="QUT MIT">
                 <h3>Queensland University of Technology</h3>
                 <p>Master of Information Technology Computer Science</p>

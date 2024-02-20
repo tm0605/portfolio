@@ -6,7 +6,7 @@ const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 3000; // Backend port
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-app.use(cors()); // Enable CORS for frontend access
+// app.use(cors()); // Enable CORS for frontend access
 app.use(express.json());
 
 // Serve static files from the React app
