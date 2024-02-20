@@ -353,7 +353,7 @@ footer {
   text-align: center;
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
   .hamburger {
     display: block;
   }
@@ -378,7 +378,7 @@ footer {
   }
 
   .active {
-    padding-bottom: 10vh;
+    padding-bottom: 50vh;
   }
 
   nav .active {
@@ -387,6 +387,7 @@ footer {
 
   .hero h1 {
     font-size: 50px;
+    line-height: 80px;
   }
 
   .skills svg {

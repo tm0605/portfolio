@@ -4,7 +4,7 @@ export default function Project() {
             <h1 className="section-title">Project</h1>
             <div className="projects">
                 <div className="container">
-                    <img src="planespotter_logo.svg"></img>
+                    <img src="/planespotter_logo.svg"></img>
                     {/* <div className="card">
                     </div> */}
                     <div className="description">
