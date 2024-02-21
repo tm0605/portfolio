@@ -29,7 +29,7 @@ export default function Nav() {
             <nav className="navbar">
                 <div className="logo">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 357.7 365.62"><polygon points="132.97 142.47 178.85 225.54 222.86 145.87 222.86 69.6 342.86 69.6 342.86 .03 13.86 .03 13.86 69.6 132.97 69.6 132.97 142.47"/><polygon points="273.19 84.75 178.85 255.54 84.52 84.75 14 84.75 14 351.17 80.78 351.17 80.78 237.66 140.51 351.65 214.86 351.65 273.65 237.66 273.65 351.17 343.7 351.17 343.7 84.75 273.19 84.75"/></svg>
-                    <h1><a href="#home">Takuya Miyamoto</a></h1>
+                    <h1><a href="#home" onClick={smoothScroll}>Takuya Miyamoto</a></h1>
                 </div>
                 <div className="hamburger" onClick={toggleHamburger}>
                     {isActive ? (
