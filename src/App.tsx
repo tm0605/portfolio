@@ -10,9 +10,7 @@ export default function App() {
 
   return (
     <>
-      {/* <header> */}
       <Nav />
-      {/* </header> */}
 
       <main>
         <Hero />
