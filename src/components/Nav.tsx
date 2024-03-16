@@ -40,6 +40,7 @@ export default function Nav() {
                 </div>
                 <ul className={isActive ? 'active' : ''}>
                     <li><a href="#about" onClick={smoothScroll}>About</a></li>
+                    <li><a href="#skills" onClick={smoothScroll}>Skills</a></li>
                     <li><a href="#project" onClick={smoothScroll}>Project</a></li>
                     <li><a href="#education" onClick={smoothScroll}>Education</a></li>
                 </ul>

@@ -3,10 +3,11 @@ export default function About() {
         <>
             <div className="about section" id="about">
                 <h1 className="section-title">About Me</h1>
-                <p>Recently graduated Masters of Information Technology majoring in Computer Science from Queensland University of Technology</p>
-                <p>Detail-oriented and resourceful Master's student in Computer Science with a passion for backendprogramming and cloud computing. Proven proficiency in JavaScript, C#, and Python, along withpractical experience in developing cloud-based applications.</p>
+                <p>Recent Master of Information Technology graduate in Computer Science, skilled in full stack development focus in backend programming. Proficient in JavaScript, C#, and Python, along with practical experience in developing ‘Plane Spotter’ a cloud-based application designed to enhance aviation enthusiasts’ experience. Eager to apply my skills in a dynamic environment, I am committed to contributing to meaningful projects and advancing technical solutions.</p>
+                <p>Currently working on improving Plane Spotter and implementing 3D visuallisation of aircrafts. Also planning on starting a new project soon.</p>
+                <p>Away from screen, I have interests in aviation, photography and combined.</p>
             </div>
-            <div className="skill section">
+            <div className="skill section" id="skills">
                 <h1 className="section-title">Skills</h1>
                 <div className="skills">
                     <div className="container">
